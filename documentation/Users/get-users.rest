@@ -1,0 +1,4 @@
+@url = http://localhost:8080/users
+
+GET {{url}}
+Content-Type: application/json

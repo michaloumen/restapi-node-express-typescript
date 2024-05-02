@@ -4,7 +4,7 @@ POST {{url}}
 Content-Type: application/json
 
 {
-  "email": "mi@gmail.com",
+  "email": "another@gmail.com",
   "password": "123",
-  "username": "Micha"
+  "username": "Another"
 }
