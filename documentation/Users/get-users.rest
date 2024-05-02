@@ -1,4 +1,5 @@
 @url = http://localhost:8080/users
+// precisa estar logado
 
 GET {{url}}
 Content-Type: application/json

@@ -1,0 +1,5 @@
+@url = http://localhost:8080/users/66337a84f9b877ba6c7a7667
+// eu consigo excluir apenas meu próprio usuário logado
+
+DELETE {{url}}
+Content-Type: application/json
