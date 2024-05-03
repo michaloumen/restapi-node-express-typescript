@@ -1,0 +1,9 @@
+@url = http://localhost:8080/users/sasdasd
+// eu consigo atualizar apenas meu próprio usuário logado
+
+PATCH {{url}}
+Content-Type: application/json
+
+{
+  "username": "ModifiedMichelle"
+}
