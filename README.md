@@ -2,7 +2,7 @@
 
 Este é um projeto de estudo que demonstra a criação de uma API REST utilizando Node.js, Express, TypeScript e MongoDB. O projeto inclui rotas autenticadas e utiliza cookies para gerenciar a autenticação de usuários.
 
-Este README.md fornece informações básicas sobre o projeto e como configurá-lo. Espero que isso seja útil para os usuários que desejam usar ou contribuir com seu projeto de estudo!
+Espero que isso seja útil para quem deseja usar ou contribuir com meu projeto de estudo!
 
 ## Instalação
 
