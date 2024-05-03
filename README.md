@@ -40,3 +40,8 @@ Para iniciar o servidor, execute o seguinte comando:
 
 ```bash
 npm start
+```
+
+## Documentação da API
+
+Nesta seção, você encontrará exemplos de como usar a API. Os exemplos incluem operações de POST, GET, UPDATE e DELETE gerados a partir da pasta `documentation .rest`.
