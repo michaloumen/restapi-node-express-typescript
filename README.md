@@ -48,7 +48,7 @@ Nesta seção, você encontrará exemplos de como usar a API. Os exemplos inclue
 
 1. Registro de usuário no Mongo
 ![registro de usuário](https://github.com/michaloumen/restapi-node-express-typescript/assets/73248516/63f754a8-9bea-48f6-83a9-5fec28e66289)
-![registro de usuário mongo](https://github.com/michaloumen/restapi-node-express-typescript/assets/73248516/7556beca-0ba6-4356-b323-1f4e067d1538)
+![Captura de tela de 2024-05-03 08-25-03](https://github.com/michaloumen/restapi-node-express-typescript/assets/73248516/5caec5d3-5a40-4742-94dd-79bd8151f111)
 
 2. Login. Quando um usuário faz login, um cookie é gerado contendo um token de sessão. Esse token é utilizado para autenticar o usuário em outras solicitações, como deletar ou atualizar suas informações. 
 ![login de usuário](https://github.com/michaloumen/restapi-node-express-typescript/assets/73248516/4e38f3d9-71de-443c-a2c6-93006af9f1d4)
