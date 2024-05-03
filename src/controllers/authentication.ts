@@ -46,6 +46,37 @@ export const login = async (req: express.Request, res: express.Response) => {
   }
 };
 
+export const logout = async (req: express.Request, res: express.Response) => {
+  try {
+    const { email } = req.body;
+
+    if (!email) {
+      console.log("Por favor, forneça um email");
+      return res.sendStatus(400);
+    }
+
+    const user = await getUserByEmail(email);
+
+    if (!user) {
+      console.log("Usuário não encontrado");
+      return res.sendStatus(400);
+    }
+
+    user.authentication.sessionToken = null;
+    await user.save();
+
+    res.clearCookie("MICHELLE-AUTH", {
+      domain: "localhost",
+      path: "/",
+    });
+
+    return res.status(200).json({ message: "Logout realizado com sucesso" }).end();
+  } catch (error) {
+    console.log(error);
+    return res.sendStatus(400);
+  }
+};
+
 export const register = async (req: express.Request, res: express.Response) => {
   try {
     const { email, password, username } = req.body;

@@ -1,0 +1,8 @@
+@url = http://localhost:8080/auth/logout
+
+POST {{url}}
+Content-Type: application/json
+
+{
+  "email": "another@gmail.com"
+}
